@@ -1,0 +1,134 @@
+/* ----- GENERAL ----- */
+body {
+  background-color: rgb(229, 235, 240);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titulo-principal {
+  color: #0056b3;
+  text-align: center;
+}
+
+.texto-secundario {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto;
+  max-width: 900px;
+  box-shadow: 0 5px 10px rgb(165, 165, 165);
+  text-align: center;
+}
+
+h1 {
+  color: #1c3088;
+}
+
+h2 {
+  color: #1c3088;
+}
+
+p {
+  text-align: center;
+}
+
+#foto {
+  float: left;
+  margin-left: 40px;
+  width: 80px;
+}
+
+/* ----- NAVBAR ----- */
+#links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: center; 
+}
+
+#links li {
+  margin: 0 20px;
+}
+
+#links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px 12px;  
+  border-radius: 10px;   
+  transition: 0.3s;
+}
+
+#links {
+  background-color: #757272c7;
+  padding: 10px 20px;
+  width: 100%;  
+  z-index: 1000;    
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+#links a:hover {
+  background-color: white;
+  color: #1c3088;
+}
+
+/* ----- TABLA ----- */
+#tabla {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#tabla th, #tabla td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: center;
+}
+
+#tabla th {
+  background-color: #1c3088;
+  color: white;
+}
+
+/* ----- FORMULARIO ----- */
+.form {
+  max-width: 350px;
+  margin: auto;
+  text-align: left;
+  padding: 15px;
+}
+
+.form label {
+  display: block;
+  font-weight: bold;
+  color: #000;
+  margin: 12px 0 6px;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: #0080ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
